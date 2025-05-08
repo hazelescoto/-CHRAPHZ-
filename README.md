@@ -994,7 +994,7 @@ input[type="checkbox"]:checked + label + .toggle-content {
 </div>
 
   </div>
-  </div>
+  
 
   </section>
   
@@ -1073,7 +1073,7 @@ input[type="checkbox"]:checked + label + .toggle-content {
 <footer class="footer">
   <div class="footer-content">
     <div class="footer-logo">
-      <img src="/IMAGE/logo.png" alt="Logo">
+      <img src="IMAGE/logo.png" alt="Logo">
     </div>
     <nav class="footer-links">
       <a href="#home">Home</a>
