@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 
@@ -1095,5 +1094,4 @@ input[type="checkbox"]:checked + label + .toggle-content {
 </footer>
 
 
-</body>
-</html>
+
