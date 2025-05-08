@@ -1,0 +1,119 @@
+.menu {
+    padding: 40px 20px;
+    background: #070e16;
+    ;
+  }
+
+  .menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  .menu-items {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .menu-item {
+    flex: 0 0 300px;
+    background:  #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    scroll-snap-align: start;
+  }
+
+ 
+  .menu-item img {
+width: 100%;
+height: 250px;
+object-fit: cover;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.menu-item img:hover {
+transform: scale(1.03);   /* Slight zoom effect for interactivity */
+}
+
+/* Responsive image height for tablets */
+@media (max-width: 768px) {
+.menu-item img {
+  height: 160px;
+}
+}
+
+/* Responsive image height for mobile */
+@media (max-width: 480px) {
+.menu-item img {
+  height: 130px;
+}
+}
+
+
+  .menu-item h3 {
+    margin: 10px 0 5px;
+    color: #ec6868;
+  }
+
+  .menu-item p {
+    font-size: 14px;
+    color: #fff8f8;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    .menu-item {
+      flex: 0 0 250px;
+    }
+
+    .menu-item img {
+      height: 250px;
+    }
+  }
+
+
+  
+/* Dropdown styles */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #070e16;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    min-width: 160px;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #ffffff;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  :root {
+    --primary-color: #ff6f00;
+    --primary-color-dark: #e65c00;
+    --light-bg: #f0f0f0;
+    --text-color: #333;
+    --font-family: 'Segoe UI', sans-serif;
+  }
+  
+
+

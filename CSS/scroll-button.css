@@ -1,0 +1,17 @@
+/* Scroll Buttons */
+.scroll-btn {
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000000;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  opacity: 0.7;
+  
+}

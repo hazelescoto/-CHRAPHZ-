@@ -1,0 +1,29 @@
+
+/* Toggle Section */
+.toggle-section {
+    align-items: center;
+    justify-items: center;
+    background-color: #070e16;
+  }
+  
+  .toggle-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+    background-color: var(--light-bg);
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+    border-left: 4px solid var(--primary-color);
+    border-radius: 4px;
+    
+   
+  }
+  
+  input[type="checkbox"]:checked + label + .toggle-content {
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+    padding: 1rem;
+  }

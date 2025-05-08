@@ -1,0 +1,66 @@
+
+/* FAQ Section Styles */
+.faq-section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.faq-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for each FAQ item */
+.faq-item {
+    margin-bottom: 15px;
+}
+
+/* Hide the default checkbox */
+.faq-item input[type="checkbox"] {
+    display: none;
+}
+
+/* Style for the question label */
+.faq-question {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the answer */
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
+
+/* Show the answer when the checkbox is checked */
+.faq-item input[type="checkbox"]:checked + .faq-question + .faq-answer {
+    display: block;
+}
+
+.faq-answer p {
+    font-size: 1rem;
+    color: #555;
+
+}
